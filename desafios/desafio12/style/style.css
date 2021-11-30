@@ -5,3 +5,7 @@
 	--fonte-sriracha: 'Sriracha', cursive;
 	--fonte-passion: 'Passion One', cursive;
 }
+
+section p{
+	font-family: var(--fonte-sriracha);
+}

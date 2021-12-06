@@ -54,16 +54,29 @@ section{
 	font-size: 2em;
 }
 
+section > p{
+	padding: 2em;
+}
+
 section.normal{
 	background-color: white;
 	color: black;
 }
 
 section.imagem{
-	background-color: rgb(58, 56, 56);
+	background-color: rgb(51, 51, 51);
 	color: white;
-	background-size: cover;
-	background-attachment: fixed;
+	box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.658);
+	background-size: cover;	
+	background-attachment: fixed;	
+}
+
+section.imagem > p{
+	display: inline-block;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.582);
+	color: white;
+	text-shadow: 2px 2x 0px black;
 }
 
 

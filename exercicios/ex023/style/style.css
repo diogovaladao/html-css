@@ -19,6 +19,10 @@ thead, tfoot{
 	color: white;
 }
 
+tbody > tr:nth-child(2n){ /* deixar tabela zebrada link da aula: https://www.youtube.com/watch?v=IYUiFRE5hpI*/
+	background-color: lightgray;
+}
+
 .num{
 	text-align: right;
 }

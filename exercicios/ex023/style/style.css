@@ -7,6 +7,7 @@ body{
 table{
 	width: 500px;
 	border-collapse: collapse;
+	position: relative;
 }
 
 td, th{
@@ -17,6 +18,13 @@ td, th{
 thead, tfoot{
 	background-color: gray;
 	color: white;
+}
+
+/* abaixo fixa o cabeçalho da tabela, para isso deve setar a tabela com position:relative*/
+thead > tr > th{
+	position: sticky;
+	top: -1px;
+	background-color: gray;
 }
 
 tbody > tr:nth-child(2n){ /* deixar tabela zebrada link da aula: https://www.youtube.com/watch?v=IYUiFRE5hpI*/

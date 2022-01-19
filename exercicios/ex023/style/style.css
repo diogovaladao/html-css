@@ -31,6 +31,11 @@ tbody > tr:nth-child(2n){ /* deixar tabela zebrada link da aula: https://www.you
 	background-color: lightgray;
 }
 
+/* hover na linha que o mouse está em cima*/
+tbody tr:hover{
+	background-color: beige;
+}
+
 .num{
 	text-align: right;
 }
